@@ -498,7 +498,7 @@ a{
   align-items: center;
   display: flex;
   gap: 16px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: var(--primary-brand-color);
   border: none;
@@ -509,6 +509,7 @@ a{
   letter-spacing: 0.04em;
   justify-content: center;
   padding: 8px 24px;
+  cursor: pointer;
 }
 
 .input-button:hover,
@@ -518,7 +519,6 @@ a{
 .icon-team-link:hover,
 .icon-team-link:focus {
   background-color: var(--pressed-state-color);
-  cursor: pointer;
 }
 .main-third-list {
   display: flex;
@@ -674,6 +674,7 @@ a{
   width: 24px;
   height: 24px;
   justify-content: center;
+  margin-left: 16px;
 }
 .modal-close-btn:focus,
 .modal-close-btn:hover{
@@ -694,8 +695,9 @@ a{
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 72px;
-  margin-bottom: 16px;
+  /*margin-top: 72px;
+  margin-bottom: 16px;*/
+  padding: 72px 24px 16px 24px;
 }
 
 .modal-form-cont {
@@ -731,6 +733,7 @@ a{
   padding-left: 38px;
   width: 100%;
 }
+
 .input-user:focus {
   border-color: var(--primary-brand-color);
 }
