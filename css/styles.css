@@ -481,7 +481,7 @@ a{
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.04em;
-  margin-left: 16px;
+  padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
   color: var(--body-background-color);
