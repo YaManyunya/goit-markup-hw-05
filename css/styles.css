@@ -497,7 +497,7 @@ a{
 .input-button{
   align-items: center;
   display: flex;
-  gap: 16px;
+  /*gap: 16px;*/
   min-width: 165px;
   height: 40px;
   background-color: var(--primary-brand-color);
@@ -674,6 +674,10 @@ a{
   width: 24px;
   height: 24px;
   justify-content: center;
+  margin-left: 16px;
+}
+
+.input-icon{
   margin-left: 16px;
 }
 .modal-close-btn:focus,
