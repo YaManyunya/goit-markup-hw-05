@@ -701,8 +701,9 @@ a{
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 72px;
-  margin-bottom: 16px;
+  /*margin-top: 72px;
+  margin-bottom: 16px;*/
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-form-cont {
