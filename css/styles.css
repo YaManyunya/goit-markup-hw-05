@@ -702,7 +702,6 @@ a{
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -713,9 +712,9 @@ a{
 .modal-input-form{
   width: 360px;
   display: block;
-  margin-bottom: 24px;
+  /*margin-bottom: 24px;
   margin-left: 24px;
-  margin-right: 24px;
+  margin-right: 24px;*/
 }
 .modal-input-name {
   display: block;
@@ -815,6 +814,7 @@ color: var(--primary-brand-color);
 
 .modal-button-textarea {
   padding: 0;
+  border-radius: 4px;
   background-color: var(--primary-brand-color);
   border: none;
   color: var(--body-background-color);
